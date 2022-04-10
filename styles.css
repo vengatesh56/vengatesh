@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Fredoka+One&family=Lavishly+Yours&family=Pacifico&family=Varela+Round&display=swap');
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+    text-align: center;
+    background-color:#FFEDDB
+}
+{
+  background-image:url("https://image.shutterstock.com/image-photo/nature-background-table-wood-product-260nw-285662423.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+.face{
+  width: auto;
+  height: 200px;
+  border-radius:40%;
+}
+h1{
+   font-family: 'Lavishly Yours', cursive;
+   font-size:70px;
+   color:#06FF00;
+}
+h3{
+  font-family: 'Varela Round', sans-serif;
+  color:#2FA4FF;
+  font-size:30px;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  color:#00FFC6;
+  font-size:35px;
+}
+header {
+  background-color: #B8FFF9;
+  position: relative;
+  padding-top: 80px;
+}
+.clo{
+  position:absolute;
+}
+.clo-top{
+  right:200px;
+}
+.clo-bottom{
+  left:200px;
+}
+.mid{
+  margin-top:50px;
+}
+hr{
+  border:none;
+  border-top:10px dotted #91C788;
+  width: 5%;
+  margin: 10px auto;
+}
+.hel{
+  width:30%;
+  margin:10px auto;
+  line-height:2;
+}
+.skill{
+  margin: 30px ;
+  text-align: center;
+  padding-top: 0;
+
+}
+.lap{
+  width: auto;
+  height: 150px;
+  border-radius:50%;
+  float:left;
+  margin-right: 50px;
+}
+.skill01{
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height:2;
+}
+.analyst{
+  float:right;
+  margin-left: 50px;
+}
+.skill-each{
+  padding-top:40px;
+}
+.contact{
+  margin:30px;
+}
+.contact h3{
+  padding:30px;
+}
+.contact button {
+  padding: 10px 20px;
+  background-color: #32E0C4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 75px;
+  cursor: pointer;
+}
+.but:hover{
+  background-color:#12CAD6;
+}
+footer{
+  background-color: #B8FFF9;
+  margin-top: 100px;
+  padding-top: 30px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+footer a {
+  margin: 0 50px;
+  text-decoration: none;
+  color: #11999E;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer p {
+  padding-top: 25px;
+  font-size: 0.8rem;
+}
